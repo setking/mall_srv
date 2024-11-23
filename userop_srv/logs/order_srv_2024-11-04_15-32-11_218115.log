@@ -1,0 +1,53 @@
+2024-11-04 15:32:11.224 | INFO     | __main__:serve:67 - 启动服务：192.168.0.102:8870
+2024-11-04 15:32:11.239 | INFO     | __main__:serve:69 - 服务注册开始
+2024-11-04 15:32:11.243 | INFO     | common.register.consul:register_grpc:61 - http://192.168.0.102:8870/health
+2024-11-04 15:32:11.243 | INFO     | common.register.consul:register_grpc:63 - HTTP健康检查服务注册成功
+2024-11-04 17:27:19.109 | ERROR    | grpc._server:_call_behavior:610 - An error has been caught in function '_call_behavior', process 'MainProcess' (12728), thread 'ThreadPoolExecutor-0_0' (25372):
+Traceback (most recent call last):
+
+  File "D:\Miniconda3\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001D127B819E0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 25372)>
+  File "D:\Miniconda3\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001D127B816C0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 25372)>
+  File "D:\Miniconda3\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 25372)>
+    │    │        │    └ (<weakref at 0x000001D12B2A0860; to 'ThreadPoolExecutor' at 0x000001D12ACAB320>, <_queue.SimpleQueue object at 0x000001D12B0B...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 25372)>
+    │    └ <function _worker at 0x000001D12B0DB2E0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 25372)>
+  File "D:\Miniconda3\Lib\concurrent\futures\thread.py", line 92, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x000001D12B0DB420>
+    └ <concurrent.futures.thread._WorkItem object at 0x000001D12B2D5070>
+  File "D:\Miniconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x000001D12B2D5070>
+             │    │   │    └ (<function _unary_response_in_pool at 0x000001D12B28A980>, <grpc._cython.cygrpc.RequestCallEvent object at 0x000001D12B2A16C0...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x000001D12B2D5070>
+             │    └ <built-in method run of _contextvars.Context object at 0x000001D12B291740>
+             └ <concurrent.futures.thread._WorkItem object at 0x000001D12B2D5070>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\grpc\_server.py", line 793, in _unary_response_in_pool
+    response, proceed = _call_behavior(
+                        └ <function _call_behavior at 0x000001D12B28A520>
+> File "E:\workspace\Mall_srv\venv\Lib\site-packages\grpc\_server.py", line 610, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x000001D12B2D66F0>
+                           │        └ 
+                           └ <bound method MessageServicer.MessageList of <userop_srv.handler.message.message.MessageServicer object at 0x000001D12B0E48F0>>
+
+  File "E:\workspace\Mall_srv\userop_srv\handler\message\message.py", line 18, in MessageList
+    message_rsp.userId = message.user_id
+    │                    └ <LeavingMessages: 1>
+    └ id: 1
+
+AttributeError: 'LeavingMessages' object has no attribute 'user_id'
+2024-11-04 17:27:47.689 | INFO     | __main__:on_exit:27 - 注销<frame at 0x000001D12B276DC0, file 'D:\\Miniconda3\\Lib\\threading.py', line 359, code wait>服务
+2024-11-04 17:27:47.699 | ERROR    | common.register.consul:unregister:75 - 注销失败:404
+2024-11-04 17:27:47.700 | INFO     | __main__:on_exit:29 - 注销成功

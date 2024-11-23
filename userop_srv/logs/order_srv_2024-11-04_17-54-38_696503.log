@@ -1,0 +1,281 @@
+2024-11-04 17:54:38.701 | INFO     | __main__:serve:67 - 启动服务：192.168.0.102:13939
+2024-11-04 17:54:38.709 | INFO     | __main__:serve:69 - 服务注册开始
+2024-11-04 17:54:38.714 | INFO     | common.register.consul:register_grpc:61 - http://192.168.0.102:13939/health
+2024-11-04 17:54:38.714 | INFO     | common.register.consul:register_grpc:63 - HTTP健康检查服务注册成功
+2024-11-04 17:55:08.016 | ERROR    | grpc._server:_call_behavior:610 - An error has been caught in function '_call_behavior', process 'MainProcess' (25792), thread 'ThreadPoolExecutor-0_0' (22204):
+Traceback (most recent call last):
+
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 3322, in execute_sql
+    cursor.execute(sql, params or ())
+    │      │       │    └ [datetime.datetime(2024, 11, 4, 17, 54, 37, 581945), False, datetime.datetime(2024, 11, 4, 17, 55, 8, 14739), 1, 421]
+    │      │       └ 'INSERT INTO `userfav` (`add_time`, `is_deleted`, `update_time`, `user`, `goods`) VALUES (%s, %s, %s, %s, %s)'
+    │      └ <function Cursor.execute at 0x000001F9317B5A80>
+    └ <pymysql.cursors.Cursor object at 0x000001F93210F3E0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             │    │      └ "INSERT INTO `userfav` (`add_time`, `is_deleted`, `update_time`, `user`, `goods`) VALUES ('2024-11-04 17:54:37.581945', 0, '2...
+             │    └ <function Cursor._query at 0x000001F9317B5F80>
+             └ <pymysql.cursors.Cursor object at 0x000001F93210F3E0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+    │    │     └ "INSERT INTO `userfav` (`add_time`, `is_deleted`, `update_time`, `user`, `goods`) VALUES ('2024-11-04 17:54:37.581945', 0, '2...
+    │    └ <function Connection.query at 0x000001F9317F9580>
+    └ <pymysql.connections.Connection object at 0x000001F931F4FEF0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+    │    │                │    │                             └ False
+    │    │                │    └ <function Connection._read_query_result at 0x000001F9317F9D00>
+    │    │                └ <pymysql.connections.Connection object at 0x000001F931F4FEF0>
+    │    └ 0
+    └ <pymysql.connections.Connection object at 0x000001F931F4FEF0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+    │      └ <function MySQLResult.read at 0x000001F9317FA5C0>
+    └ <pymysql.connections.MySQLResult object at 0x000001F931D2C980>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   │    └ None
+                   └ <pymysql.connections.MySQLResult object at 0x000001F931D2C980>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x000001F9317E3C40>
+    └ <pymysql.protocol.MysqlPacket object at 0x000001F93210F790>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x000001F93210F790>
+    │   └ <function raise_mysql_exception at 0x000001F930F4E0C0>
+    └ <module 'pymysql.err' from 'E:\\workspace\\Mall_srv\\venv\\Lib\\site-packages\\pymysql\\err.py'>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Duplicate entry '1-421' for key 'userfav.PRIMARY'"
+          │          └ 1062
+          └ <class 'pymysql.err.IntegrityError'>
+
+pymysql.err.IntegrityError: (1062, "Duplicate entry '1-421' for key 'userfav.PRIMARY'")
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\Miniconda3\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001F92EB219E0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 22204)>
+  File "D:\Miniconda3\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001F92EB216C0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 22204)>
+  File "D:\Miniconda3\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 22204)>
+    │    │        │    └ (<weakref at 0x000001F932130810; to 'ThreadPoolExecutor' at 0x000001F9318A62A0>, <_queue.SimpleQueue object at 0x000001F931F7...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 22204)>
+    │    └ <function _worker at 0x000001F931F9F240>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 22204)>
+  File "D:\Miniconda3\Lib\concurrent\futures\thread.py", line 92, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x000001F931F9F380>
+    └ <concurrent.futures.thread._WorkItem object at 0x000001F93210EE10>
+  File "D:\Miniconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x000001F93210EE10>
+             │    │   │    └ (<function _unary_response_in_pool at 0x000001F93211A8E0>, <grpc._cython.cygrpc.RequestCallEvent object at 0x000001F9321175B0...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x000001F93210EE10>
+             │    └ <built-in method run of _contextvars.Context object at 0x000001F932123900>
+             └ <concurrent.futures.thread._WorkItem object at 0x000001F93210EE10>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\grpc\_server.py", line 793, in _unary_response_in_pool
+    response, proceed = _call_behavior(
+                        └ <function _call_behavior at 0x000001F93211A480>
+> File "E:\workspace\Mall_srv\venv\Lib\site-packages\grpc\_server.py", line 610, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x000001F93210E150>
+                           │        └ userId: 1
+                           │          goods: 421
+                           │          
+                           └ <bound method UserFavServicer.AddUserFav of <userop_srv.handler.userfav.userfav.UserFavServicer object at 0x000001F931B791F0>>
+
+  File "E:\workspace\Mall_srv\userop_srv\handler\userfav\userfav.py", line 45, in AddUserFav
+    userfav.save(force_insert=True)
+    │       └ <function BaseModel.save at 0x000001F931880900>
+    └ <UserFav: (1, 421)>
+
+  File "E:\workspace\Mall_srv\userop_srv\model\models.py", line 23, in save
+    return super().save(*args, **kwargs)
+                         │       └ {'force_insert': True}
+                         └ ()
+
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 6951, in save
+    pk = self.insert(**field_dict).execute()
+         │    │        └ {'add_time': datetime.datetime(2024, 11, 4, 17, 54, 37, 581945), 'is_deleted': False, 'update_time': datetime.datetime(2024, ...
+         │    └ <classmethod(<function Model.insert at 0x000001F931846DE0>)>
+         └ <UserFav: (1, 421)>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 2036, in inner
+    return method(self, database, *args, **kwargs)
+           │      │     │          │       └ {}
+           │      │     │          └ ()
+           │      │     └ <userop_srv.model.models.ReconnectMySQLDatabase object at 0x000001F9317A8320>
+           │      └ <peewee.ModelInsert object at 0x000001F93210EF90>
+           └ <function BaseQuery.execute at 0x000001F931810EA0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 2107, in execute
+    return self._execute(database)
+           │    │        └ <userop_srv.model.models.ReconnectMySQLDatabase object at 0x000001F9317A8320>
+           │    └ <function Insert._execute at 0x000001F93181E480>
+           └ <peewee.ModelInsert object at 0x000001F93210EF90>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 2912, in _execute
+    return super(Insert, self)._execute(database)
+                 │       │              └ <userop_srv.model.models.ReconnectMySQLDatabase object at 0x000001F9317A8320>
+                 │       └ <peewee.ModelInsert object at 0x000001F93210EF90>
+                 └ <class 'peewee.Insert'>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 2625, in _execute
+    cursor = database.execute(self)
+             │        │       └ <peewee.ModelInsert object at 0x000001F93210EF90>
+             │        └ <function Database.execute at 0x000001F931821080>
+             └ <userop_srv.model.models.ReconnectMySQLDatabase object at 0x000001F9317A8320>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           │    │           │    └ [datetime.datetime(2024, 11, 4, 17, 54, 37, 581945), False, datetime.datetime(2024, 11, 4, 17, 55, 8, 14739), 1, 421]
+           │    │           └ 'INSERT INTO `userfav` (`add_time`, `is_deleted`, `update_time`, `user`, `goods`) VALUES (%s, %s, %s, %s, %s)'
+           │    └ <function ReconnectMixin.execute_sql at 0x000001F931880360>
+           └ <userop_srv.model.models.ReconnectMySQLDatabase object at 0x000001F9317A8320>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\playhouse\shortcuts.py", line 256, in execute_sql
+    return self._reconnect(super(ReconnectMixin, self).execute_sql, sql, params)
+           │    │                │               │                  │    └ [datetime.datetime(2024, 11, 4, 17, 54, 37, 581945), False, datetime.datetime(2024, 11, 4, 17, 55, 8, 14739), 1, 421]
+           │    │                │               │                  └ 'INSERT INTO `userfav` (`add_time`, `is_deleted`, `update_time`, `user`, `goods`) VALUES (%s, %s, %s, %s, %s)'
+           │    │                │               └ <userop_srv.model.models.ReconnectMySQLDatabase object at 0x000001F9317A8320>
+           │    │                └ <class 'playhouse.shortcuts.ReconnectMixin'>
+           │    └ <function ReconnectMixin._reconnect at 0x000001F9318804A0>
+           └ <userop_srv.model.models.ReconnectMySQLDatabase object at 0x000001F9317A8320>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\playhouse\shortcuts.py", line 272, in _reconnect
+    raise exc
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\playhouse\shortcuts.py", line 263, in _reconnect
+    return func(*args, **kwargs)
+           │     │       └ {}
+           │     └ ('INSERT INTO `userfav` (`add_time`, `is_deleted`, `update_time`, `user`, `goods`) VALUES (%s, %s, %s, %s, %s)', [datetime.da...
+           └ <bound method Database.execute_sql of <userop_srv.model.models.ReconnectMySQLDatabase object at 0x000001F9317A8320>>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         └ <peewee.ExceptionWrapper object at 0x000001F931815EA0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    │       │         │        │           │          └ <traceback object at 0x000001F932134D80>
+    │       │         │        │           └ (1062, "Duplicate entry '1-421' for key 'userfav.PRIMARY'")
+    │       │         │        └ IntegrityError(1062, "Duplicate entry '1-421' for key 'userfav.PRIMARY'")
+    │       │         └ <class 'peewee.IntegrityError'>
+    │       └ <class 'peewee.IntegrityError'>
+    └ <function reraise at 0x000001F930E996C0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+          │     │              └ <traceback object at 0x000001F932134D80>
+          │     └ <method 'with_traceback' of 'BaseException' objects>
+          └ IntegrityError(1062, "Duplicate entry '1-421' for key 'userfav.PRIMARY'")
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\peewee.py", line 3322, in execute_sql
+    cursor.execute(sql, params or ())
+    │      │       │    └ [datetime.datetime(2024, 11, 4, 17, 54, 37, 581945), False, datetime.datetime(2024, 11, 4, 17, 55, 8, 14739), 1, 421]
+    │      │       └ 'INSERT INTO `userfav` (`add_time`, `is_deleted`, `update_time`, `user`, `goods`) VALUES (%s, %s, %s, %s, %s)'
+    │      └ <function Cursor.execute at 0x000001F9317B5A80>
+    └ <pymysql.cursors.Cursor object at 0x000001F93210F3E0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             │    │      └ "INSERT INTO `userfav` (`add_time`, `is_deleted`, `update_time`, `user`, `goods`) VALUES ('2024-11-04 17:54:37.581945', 0, '2...
+             │    └ <function Cursor._query at 0x000001F9317B5F80>
+             └ <pymysql.cursors.Cursor object at 0x000001F93210F3E0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+    │    │     └ "INSERT INTO `userfav` (`add_time`, `is_deleted`, `update_time`, `user`, `goods`) VALUES ('2024-11-04 17:54:37.581945', 0, '2...
+    │    └ <function Connection.query at 0x000001F9317F9580>
+    └ <pymysql.connections.Connection object at 0x000001F931F4FEF0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+    │    │                │    │                             └ False
+    │    │                │    └ <function Connection._read_query_result at 0x000001F9317F9D00>
+    │    │                └ <pymysql.connections.Connection object at 0x000001F931F4FEF0>
+    │    └ 0
+    └ <pymysql.connections.Connection object at 0x000001F931F4FEF0>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+    │      └ <function MySQLResult.read at 0x000001F9317FA5C0>
+    └ <pymysql.connections.MySQLResult object at 0x000001F931D2C980>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   │    └ None
+                   └ <pymysql.connections.MySQLResult object at 0x000001F931D2C980>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x000001F9317E3C40>
+    └ <pymysql.protocol.MysqlPacket object at 0x000001F93210F790>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x000001F93210F790>
+    │   └ <function raise_mysql_exception at 0x000001F930F4E0C0>
+    └ <module 'pymysql.err' from 'E:\\workspace\\Mall_srv\\venv\\Lib\\site-packages\\pymysql\\err.py'>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Duplicate entry '1-421' for key 'userfav.PRIMARY'"
+          │          └ 1062
+          └ <class 'pymysql.err.IntegrityError'>
+
+peewee.IntegrityError: (1062, "Duplicate entry '1-421' for key 'userfav.PRIMARY'")
+2024-11-04 17:55:47.505 | ERROR    | grpc._server:_call_behavior:610 - An error has been caught in function '_call_behavior', process 'MainProcess' (25792), thread 'ThreadPoolExecutor-0_0' (22204):
+Traceback (most recent call last):
+
+  File "D:\Miniconda3\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001F92EB219E0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 22204)>
+  File "D:\Miniconda3\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001F92EB216C0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 22204)>
+  File "D:\Miniconda3\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 22204)>
+    │    │        │    └ (<weakref at 0x000001F932130810; to 'ThreadPoolExecutor' at 0x000001F9318A62A0>, <_queue.SimpleQueue object at 0x000001F931F7...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 22204)>
+    │    └ <function _worker at 0x000001F931F9F240>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 22204)>
+  File "D:\Miniconda3\Lib\concurrent\futures\thread.py", line 92, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x000001F931F9F380>
+    └ <concurrent.futures.thread._WorkItem object at 0x000001F932399580>
+  File "D:\Miniconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x000001F932399580>
+             │    │   │    └ (<function _unary_response_in_pool at 0x000001F93211A8E0>, <grpc._cython.cygrpc.RequestCallEvent object at 0x000001F9323D7010...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x000001F932399580>
+             │    └ <built-in method run of _contextvars.Context object at 0x000001F9323D89C0>
+             └ <concurrent.futures.thread._WorkItem object at 0x000001F932399580>
+  File "E:\workspace\Mall_srv\venv\Lib\site-packages\grpc\_server.py", line 793, in _unary_response_in_pool
+    response, proceed = _call_behavior(
+                        └ <function _call_behavior at 0x000001F93211A480>
+> File "E:\workspace\Mall_srv\venv\Lib\site-packages\grpc\_server.py", line 610, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x000001F9323994C0>
+                           │        └ goods: 1
+                           │          
+                           └ <bound method UserFavServicer.GetUserFavDetail of <userop_srv.handler.userfav.userfav.UserFavServicer object at 0x000001F931B...
+
+  File "E:\workspace\Mall_srv\userop_srv\handler\userfav\userfav.py", line 63, in GetUserFavDetail
+    UserFav.get(UserFav.user == request.userId, UserFav.goods == request.goodsId)
+    │       │   │       │       │               │       │        └ goods: 1
+    │       │   │       │       │               │       │          
+    │       │   │       │       │               │       └ <peewee.FieldAccessor object at 0x000001F93187A960>
+    │       │   │       │       │               └ <Model: UserFav>
+    │       │   │       │       └ goods: 1
+    │       │   │       │         
+    │       │   │       └ <peewee.FieldAccessor object at 0x000001F93176BB00>
+    │       │   └ <Model: UserFav>
+    │       └ <classmethod(<function Model.get at 0x000001F9318474C0>)>
+    └ <Model: UserFav>
+
+AttributeError: goodsId
+2024-11-04 17:56:03.423 | INFO     | __main__:on_exit:27 - 注销<frame at 0x000001F93210B680, file 'D:\\Miniconda3\\Lib\\threading.py', line 359, code wait>服务
+2024-11-04 17:56:03.433 | ERROR    | common.register.consul:unregister:75 - 注销失败:404
+2024-11-04 17:56:03.434 | INFO     | __main__:on_exit:29 - 注销成功

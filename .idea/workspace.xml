@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81ca9b17-849e-41ad-8438-838c699617fe" name="更改" comment="更换gitee">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_srv/proto/user_pb2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_srv/proto/user_pb2_grpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/handler/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/handler/address/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/handler/address/address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/handler/message/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/handler/message/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/handler/userfav/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/handler/userfav/userfav.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_14-42-39_335312.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_14-50-12_427556.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_15-32-11_218115.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-27-49_458106.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-28-51_142447.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-39-40_694992.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-41-38_438686.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-42-53_099202.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-46-38_082603.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-48-38_110746.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-54-15_693383.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-54-38_696503.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-56-04_913086.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-01-34_674829.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-02-02_008375.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-03-08_100585.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-04-00_501961.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-12-34_964701.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-14-55_127092.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-15-57_482311.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-16-29_258690.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-11_16-02-56_535854.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/model/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/nacos-data/snapshot/order_srv+dev+95a5cb3c-6c82-4969-ac36-51e2dcdba47a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/nacos-data/snapshot/userop_srv+dev+e5eecf67-dfb8-42ac-9441-c611083b53d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/proto/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/proto/address.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/proto/address_pb2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/proto/address_pb2_grpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/proto/message.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/proto/message_pb2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/proto/message_pb2_grpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/proto/userfav.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/proto/userfav_pb2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/proto/userfav_pb2_grpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/settings/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/testy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userop_srv/testy/api_test/userop.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;setking&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1732345926" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/setking/mall_srv.git&quot;,
+    &quot;accountId&quot;: &quot;093a32e9-a8b8-42e0-b276-af99415227b4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2n0ezTgXNQdvEeN4OABY0k0S4oJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.book.executor&quot;: &quot;Run&quot;,
+    &quot;Python.consumer (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.consumer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.goods (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.goods (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.goods (3).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.goods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.goods_srv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inventory (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.inventory (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.inventory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inventory_srv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nacos_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.order (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.order.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.order_srv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.redis_lock.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.server (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.server (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.server (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.server (5).executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.settings (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.settings (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.settings (3).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.user (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.user (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.user (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.user_srv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.userop_srv.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/demo/mode/grpc_interceptor_test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Mall_srv" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Mall_srv" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\Mall_srv\goods_srv" />
+      <recent name="E:\workspace\Mall_srv\inventory_srv" />
+      <recent name="E:\workspace\Mall_srv\order_srv" />
+      <recent name="E:\workspace\Mall_srv\user_srv" />
+      <recent name="E:\workspace\Mall_srv\order_srv\proto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\Mall_srv\userop_srv" />
+      <recent name="E:\workspace\Mall_srv\goods_srv\testy\api_test" />
+      <recent name="E:\workspace\Mall_srv\nacos" />
+      <recent name="E:\workspace\Mall_srv\user_srv\tests\grpc_health" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.server (3)">
+    <configuration name="order_srv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Mall_srv" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/order_srv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/order_srv/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mall_srv" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/goods_srv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/goods_srv/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mall_srv" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/goods_srv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/goods_srv/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mall_srv" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/goods_srv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/goods_srv/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mall_srv" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (Mall_srv)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inventory_srv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inventory_srv/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mall_srv" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (Mall_srv)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/goods_srv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/goods_srv/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.order_srv" />
+      <item itemvalue="Python.server (1)" />
+      <item itemvalue="Python.server (2)" />
+      <item itemvalue="Python.server (3)" />
+      <item itemvalue="Python.server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.server (3)" />
+        <item itemvalue="Python.server (2)" />
+        <item itemvalue="Python.server (1)" />
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="81ca9b17-849e-41ad-8438-838c699617fe" name="更改" comment="" />
+      <created>1728114682338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728114682338</updated>
+      <workItem from="1728114683660" duration="2027000" />
+      <workItem from="1728116725907" duration="4210000" />
+      <workItem from="1728124657239" duration="102000" />
+      <workItem from="1728124764546" duration="1169000" />
+      <workItem from="1728126017272" duration="514000" />
+      <workItem from="1728126543186" duration="1538000" />
+      <workItem from="1728128096697" duration="157000" />
+      <workItem from="1728128258559" duration="1533000" />
+      <workItem from="1728129807249" duration="1565000" />
+      <workItem from="1728189550325" duration="6950000" />
+      <workItem from="1728202272556" duration="922000" />
+      <workItem from="1728203201841" duration="3894000" />
+      <workItem from="1728286587766" duration="5179000" />
+      <workItem from="1728366926773" duration="2933000" />
+      <workItem from="1728375944576" duration="7239000" />
+      <workItem from="1728440686462" duration="5591000" />
+      <workItem from="1728483897873" duration="112000" />
+      <workItem from="1728530820281" duration="546000" />
+      <workItem from="1728531375876" duration="302000" />
+      <workItem from="1728540330409" duration="2990000" />
+      <workItem from="1728548270434" duration="2023000" />
+      <workItem from="1728550767488" duration="19362000" />
+      <workItem from="1728613337788" duration="10848000" />
+      <workItem from="1728656522970" duration="103000" />
+      <workItem from="1728883063212" duration="1999000" />
+      <workItem from="1728887391903" duration="3375000" />
+      <workItem from="1728896530806" duration="1666000" />
+      <workItem from="1728972742583" duration="4684000" />
+      <workItem from="1728979513707" duration="474000" />
+      <workItem from="1728979996975" duration="33000" />
+      <workItem from="1728980038731" duration="5691000" />
+      <workItem from="1729047355478" duration="76000" />
+      <workItem from="1729047437415" duration="53000" />
+      <workItem from="1729047496007" duration="19000" />
+      <workItem from="1729047525298" duration="12485000" />
+      <workItem from="1729069057464" duration="6007000" />
+      <workItem from="1729075412161" duration="29000" />
+      <workItem from="1729075446902" duration="14101000" />
+      <workItem from="1729145603846" duration="923000" />
+      <workItem from="1729146881090" duration="91000" />
+      <workItem from="1729146979975" duration="81000" />
+      <workItem from="1729147067201" duration="10000" />
+      <workItem from="1729147936244" duration="108000" />
+      <workItem from="1729148051688" duration="174000" />
+      <workItem from="1729148238059" duration="10000" />
+      <workItem from="1729148276498" duration="5000" />
+      <workItem from="1729148298908" duration="78000" />
+      <workItem from="1729148716114" duration="9000" />
+      <workItem from="1729149382312" duration="18000" />
+      <workItem from="1729149771151" duration="199000" />
+      <workItem from="1729150136393" duration="310000" />
+      <workItem from="1729150557585" duration="5000" />
+      <workItem from="1729150774144" duration="10462000" />
+      <workItem from="1729218070440" duration="731000" />
+      <workItem from="1729231864634" duration="7393000" />
+      <workItem from="1729239685221" duration="7487000" />
+      <workItem from="1729494040675" duration="4380000" />
+      <workItem from="1729577943216" duration="17185000" />
+      <workItem from="1729663820535" duration="4440000" />
+      <workItem from="1730268718961" duration="9339000" />
+      <workItem from="1730354774257" duration="9006000" />
+      <workItem from="1730368241096" duration="1508000" />
+      <workItem from="1730441860677" duration="19199000" />
+      <workItem from="1730527705067" duration="9556000" />
+      <workItem from="1730620564761" duration="2486000" />
+      <workItem from="1730699590596" duration="11395000" />
+      <workItem from="1730786761948" duration="1580000" />
+      <workItem from="1730945238618" duration="1518000" />
+      <workItem from="1731052693548" duration="1519000" />
+      <workItem from="1731061728135" duration="1188000" />
+      <workItem from="1731062938047" duration="5576000" />
+      <workItem from="1731071379400" duration="435000" />
+      <workItem from="1731071823303" duration="325000" />
+      <workItem from="1731072157289" duration="1076000" />
+      <workItem from="1731073248692" duration="2438000" />
+      <workItem from="1731075711762" duration="94000" />
+      <workItem from="1731075812456" duration="673000" />
+      <workItem from="1731076494209" duration="1432000" />
+      <workItem from="1731120102713" duration="13518000" />
+      <workItem from="1731146361801" duration="78000" />
+      <workItem from="1731307949474" duration="3541000" />
+      <workItem from="1731311531850" duration="12921000" />
+      <workItem from="1731387866756" duration="1895000" />
+      <workItem from="1731486609687" duration="815000" />
+      <workItem from="1731572588092" duration="2359000" />
+      <workItem from="1731651062957" duration="1341000" />
+      <workItem from="1731908301151" duration="2449000" />
+      <workItem from="1732258748045" duration="3000" />
+      <workItem from="1732345281658" duration="3000" />
+      <workItem from="1732345836721" duration="649000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化python服务">
+      <option name="closed" value="true" />
+      <created>1728530902665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728530902665</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始化python服务">
+      <option name="closed" value="true" />
+      <created>1728531103714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728531103714</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初始化python服务">
+      <option name="closed" value="true" />
+      <created>1728531132621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728531132621</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加consul服务注册中心和健康检查">
+      <option name="closed" value="true" />
+      <created>1728656550712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728656550712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加consul服务注册中心和健康检查">
+      <option name="closed" value="true" />
+      <created>1728656564363</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728656564363</updated>
+    </task>
+    <task id="LOCAL-00006" summary="集成nacos配置中心服务">
+      <option name="closed" value="true" />
+      <created>1728999352041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728999352041</updated>
+    </task>
+    <task id="LOCAL-00007" summary="商品server层开发">
+      <option name="closed" value="true" />
+      <created>1729494107855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729494107855</updated>
+    </task>
+    <task id="LOCAL-00008" summary="商品server层开发">
+      <option name="closed" value="true" />
+      <created>1729494129381</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729494129381</updated>
+    </task>
+    <task id="LOCAL-00009" summary="商品库存服务开发">
+      <option name="closed" value="true" />
+      <created>1730441887468</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730441887468</updated>
+    </task>
+    <task id="LOCAL-00010" summary="商品订单服务和购物车服务开发完成">
+      <option name="closed" value="true" />
+      <created>1730627212665</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730627212665</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加用户操作服务">
+      <option name="closed" value="true" />
+      <created>1730716804138</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730716804138</updated>
+    </task>
+    <task id="LOCAL-00012" summary="更换gitee">
+      <option name="closed" value="true" />
+      <created>1732345972156</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732345972156</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化python服务" />
+    <MESSAGE value="添加consul服务注册中心和健康检查" />
+    <MESSAGE value="集成nacos配置中心服务" />
+    <MESSAGE value="商品server层开发" />
+    <MESSAGE value="商品库存服务开发" />
+    <MESSAGE value="商品订单服务和购物车服务开发完成" />
+    <MESSAGE value="添加用户操作服务" />
+    <MESSAGE value="更换gitee" />
+    <option name="LAST_COMMIT_MESSAGE" value="更换gitee" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mall_srv$test__3_.coverage" NAME="test (3) 覆盖结果" MODIFIED="1731075418318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv/testy/rocketmq_test/transaction_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$models.coverage" NAME="models 覆盖结果" MODIFIED="1731308990920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inventory_srv/model" />
+    <SUITE FILE_PATH="coverage/mall_srv$user__3_.coverage" NAME="user (3) 覆盖结果" MODIFIED="1728628752360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_srv/tests" />
+    <SUITE FILE_PATH="coverage/mall_srv$inventory__1_.coverage" NAME="inventory (1) 覆盖结果" MODIFIED="1730359849642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inventory_srv/testy/api_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$server__2_.coverage" NAME="server (2) 覆盖结果" MODIFIED="1731651072916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/goods_srv" />
+    <SUITE FILE_PATH="coverage/mall_srv$consumer__1_.coverage" NAME="consumer (1) 覆盖结果" MODIFIED="1731077165439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv/testy/rocketmq_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$inventory.coverage" NAME="inventory 覆盖结果" MODIFIED="1730624820827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inventory_srv/testy/api_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$order.coverage" NAME="order 覆盖结果" MODIFIED="1731314593128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv/handler" />
+    <SUITE FILE_PATH="coverage/mall_srv$test__1_.coverage" NAME="test (1) 覆盖结果" MODIFIED="1731122779884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv/testy/rocketmq_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$model.coverage" NAME="model 覆盖结果" MODIFIED="1729086179640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/goods_srv/model" />
+    <SUITE FILE_PATH="coverage/mall_srv$goods__2_.coverage" NAME="goods (2) 覆盖结果" MODIFIED="1729159037891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/goods_srv/testy/api_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$settings.coverage" NAME="settings 覆盖结果" MODIFIED="1728979434581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_srv/settings" />
+    <SUITE FILE_PATH="coverage/mall_srv$settings__1_.coverage" NAME="settings (1) 覆盖结果" MODIFIED="1728127202511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_srv/settings" />
+    <SUITE FILE_PATH="coverage/mall_srv$goods__1_.coverage" NAME="goods (1) 覆盖结果" MODIFIED="1729090203168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/goods_srv/testy/api_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$test__4_.coverage" NAME="test (4) 覆盖结果" MODIFIED="1731076477261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv/testy/rocketmq_test/transaction_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$consumer.coverage" NAME="consumer 覆盖结果" MODIFIED="1731140369763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv/testy/rocketmq_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$server__4_.coverage" NAME="server (4) 覆盖结果" MODIFIED="1731311666107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv" />
+    <SUITE FILE_PATH="coverage/mall_srv$inventory__2_.coverage" NAME="inventory (2) 覆盖结果" MODIFIED="1730359008180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inventory_srv/handler" />
+    <SUITE FILE_PATH="coverage/mall_srv$server.coverage" NAME="order_srv 覆盖结果" MODIFIED="1731324749365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv" />
+    <SUITE FILE_PATH="coverage/mall_srv$server__3_.coverage" NAME="server (3) 覆盖结果" MODIFIED="1731915824095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/goods_srv" />
+    <SUITE FILE_PATH="coverage/mall_srv$goods.coverage" NAME="goods 覆盖结果" MODIFIED="1729239902053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/goods_srv/testy/api_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$redis_lock.coverage" NAME="redis_lock 覆盖结果" MODIFIED="1730363418467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inventory_srv/testy/api_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$user__2_.coverage" NAME="user (2) 覆盖结果" MODIFIED="1728575859386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_srv/tests" />
+    <SUITE FILE_PATH="coverage/mall_srv$test__2_.coverage" NAME="test (2) 覆盖结果" MODIFIED="1731072231071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv/testy/rocketmq_test/transaction_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$server__1_.coverage" NAME="server (1) 覆盖结果" MODIFIED="1731572968164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/goods_srv" />
+    <SUITE FILE_PATH="coverage/mall_srv$goods__3_.coverage" NAME="goods (3) 覆盖结果" MODIFIED="1729238473237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/goods_srv/testy/api_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$book.coverage" NAME="book 覆盖结果" MODIFIED="1730946178872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/userop_srv/testy/api_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$test.coverage" NAME="test 覆盖结果" MODIFIED="1731486955081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv/testy/jaeger" />
+    <SUITE FILE_PATH="coverage/mall_srv$settings__3_.coverage" NAME="settings (3) 覆盖结果" MODIFIED="1728128281157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_srv/settings" />
+    <SUITE FILE_PATH="coverage/mall_srv$order__1_.coverage" NAME="order (1) 覆盖结果" MODIFIED="1730536718158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/order_srv/testy/api_test" />
+    <SUITE FILE_PATH="coverage/mall_srv$settings__2_.coverage" NAME="settings (2) 覆盖结果" MODIFIED="1728128227076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_srv/settings" />
+    <SUITE FILE_PATH="coverage/mall_srv$server2.coverage" NAME="server2 覆盖结果" MODIFIED="1728898335577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_srv" />
+    <SUITE FILE_PATH="coverage/mall_srv$nacos_test.coverage" NAME="nacos_test 覆盖结果" MODIFIED="1728979354405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nacos" />
+    <SUITE FILE_PATH="coverage/mall_srv$server__5_.coverage" NAME="server (5) 覆盖结果" MODIFIED="1731311740329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/userop_srv" />
+    <SUITE FILE_PATH="coverage/mall_srv$user.coverage" NAME="user 覆盖结果" MODIFIED="1728547914909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_srv/tests" />
+    <SUITE FILE_PATH="coverage/mall_srv$user__1_.coverage" NAME="user (1) 覆盖结果" MODIFIED="1728550091019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_srv/tests" />
+    <SUITE FILE_PATH="coverage/mall_srv$models__1_.coverage" NAME="models (1) 覆盖结果" MODIFIED="1728200912898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_srv/model" />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+2024-11-04 14:42:39.649 | INFO     | __main__:serve:68 - 启动服务：192.168.0.102:4595
+2024-11-04 14:42:39.652 | INFO     | __main__:serve:70 - 服务注册开始
+2024-11-04 14:42:39.747 | INFO     | common.register.consul:register_grpc:61 - http://192.168.0.102:4595/health
+2024-11-04 14:42:39.747 | INFO     | common.register.consul:register_grpc:63 - HTTP健康检查服务注册成功
+2024-11-04 14:50:10.830 | INFO     | __main__:on_exit:28 - 注销<frame at 0x00000279E98BAA40, file 'D:\\Miniconda3\\Lib\\threading.py', line 359, code wait>服务
+2024-11-04 14:50:10.837 | ERROR    | common.register.consul:unregister:75 - 注销失败:404
+2024-11-04 14:50:10.837 | INFO     | __main__:on_exit:30 - 注销成功
