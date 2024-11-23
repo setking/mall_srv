@@ -1,0 +1,26 @@
+{
+    "name": "order_srv",
+    "tags": ["order_srv", "setking", "python"],
+    "redis":{
+        "host": "192.168.194.100",
+        "port": 6379,
+        "db": 0
+    },
+    "mysql": {
+        "db": "mall_order_srv",
+        "host": "192.168.194.100",
+        "port": 3306,
+        "user": "root",
+        "password": "root"
+    },
+    "goods_srv": {
+        "name": "goods_srv"
+    },
+    "inventory_srv": {
+        "name": "inventory_srv"
+    },
+    "consul": {
+        "host": "192.168.194.100",
+        "port": 8500
+    }
+}

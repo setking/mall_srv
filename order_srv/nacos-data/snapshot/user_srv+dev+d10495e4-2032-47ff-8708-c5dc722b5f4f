@@ -1,0 +1,15 @@
+{
+    "name": "user_srv",
+    "tags": ["user_srv", "setking11", "python"],
+    "mysql": {
+        "db": "mall_user_srv",
+        "host": "192.168.194.100",
+        "port": 3306,
+        "user": "root",
+        "password": "root"
+    },
+    "consul": {
+        "host": "192.168.194.100",
+        "port": 8500
+    }
+}
