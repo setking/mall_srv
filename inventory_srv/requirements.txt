@@ -1,0 +1,14 @@
+peewee~=3.17.6
+pymysql
+passlib~=1.7.4
+grpcio~=1.66.2
+grpcio-tools
+protobuf~=5.28.2
+loguru~=0.7.2
+rocketmq-client-python~=2.0.0
+nacos-sdk-python~=1.0.0
+requests~=2.32.3
+argparse~=1.4.0
+redis~=5.2.0
+python-redis-lock
+urllib3~=2.2.3
