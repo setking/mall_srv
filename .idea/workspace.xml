@@ -5,64 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81ca9b17-849e-41ad-8438-838c699617fe" name="更改" comment="更换gitee">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_srv/proto/user_pb2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_srv/proto/user_pb2_grpc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/handler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/handler/address/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/handler/address/address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/handler/message/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/handler/message/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/handler/userfav/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/handler/userfav/userfav.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_14-42-39_335312.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_14-50-12_427556.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_15-32-11_218115.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-27-49_458106.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-28-51_142447.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-39-40_694992.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-41-38_438686.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-42-53_099202.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-46-38_082603.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-48-38_110746.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-54-15_693383.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-54-38_696503.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_17-56-04_913086.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-01-34_674829.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-02-02_008375.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-03-08_100585.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-04-00_501961.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-12-34_964701.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-14-55_127092.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-15-57_482311.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-04_18-16-29_258690.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/logs/order_srv_2024-11-11_16-02-56_535854.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/model/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/nacos-data/snapshot/order_srv+dev+95a5cb3c-6c82-4969-ac36-51e2dcdba47a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/nacos-data/snapshot/userop_srv+dev+e5eecf67-dfb8-42ac-9441-c611083b53d4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/proto/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/proto/address.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/proto/address_pb2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/proto/address_pb2_grpc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/proto/message.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/proto/message_pb2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/proto/message_pb2_grpc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/proto/userfav.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/proto/userfav_pb2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/proto/userfav_pb2_grpc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/settings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/settings/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/testy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userop_srv/testy/api_test/userop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_srv/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -468,7 +422,7 @@
       <workItem from="1731908301151" duration="2449000" />
       <workItem from="1732258748045" duration="3000" />
       <workItem from="1732345281658" duration="3000" />
-      <workItem from="1732345836721" duration="649000" />
+      <workItem from="1732345836721" duration="1607000" />
     </task>
     <task id="LOCAL-00001" summary="初始化python服务">
       <option name="closed" value="true" />
@@ -566,7 +520,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732345972156</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="更换gitee">
+      <option name="closed" value="true" />
+      <created>1732346614302</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732346614302</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更换gitee">
+      <option name="closed" value="true" />
+      <created>1732346853369</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732346853369</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
