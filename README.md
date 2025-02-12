@@ -1,4 +1,4 @@
-### mall_web
+### mall_srv
 一个基于python + peewee,Nacos、Consul 、Redis、RocketMQ、Grpc, jaeger, kong的微服务电商商城服务端端系统，采用主流的互联网技术架构、支持集群部署、服务注册和发现以及拥有完整的订单流程等，代码完全开源，没有任何二次封装。本项目客户端由go实现，请移步[mall_web](https://github.com/setking/mall_web)
 
 
