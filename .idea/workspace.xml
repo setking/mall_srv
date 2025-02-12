@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81ca9b17-849e-41ad-8438-838c699617fe" name="更改" comment="更换gitee">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -426,7 +425,7 @@
       <workItem from="1733726232437" duration="12000" />
       <workItem from="1739177278703" duration="1814000" />
       <workItem from="1739327093956" duration="779000" />
-      <workItem from="1739342122109" duration="1855000" />
+      <workItem from="1739342122109" duration="2167000" />
     </task>
     <task id="LOCAL-00001" summary="初始化python服务">
       <option name="closed" value="true" />
@@ -580,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732352046803</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="更换gitee">
+      <option name="closed" value="true" />
+      <created>1739346023610</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1739346023610</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
