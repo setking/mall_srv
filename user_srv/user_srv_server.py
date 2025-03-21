@@ -37,14 +37,13 @@ def get_free_tcp_port():
 
 def serve():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--ip', type=str, default="192.168.0.102", help="IP address")
+    parser.add_argument('--ip', type=str, default="121.43.157.170", help="IP address")
     parser.add_argument('--port', type=int, default=0, help="IP port")
     args = parser.parse_args()
     if args.port == 0:
         port = get_free_tcp_port()
     else:
         port = args.port
-
     logger.add("logs/user_srv_{time}.log")
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
     # 注册用户服务
